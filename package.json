@@ -1,28 +1,27 @@
 {
-  "name": "main",
-  "version": "1.0.0",
-  "description": "Chn Web for NodeJS",
-  "main": "app.js",
-  "dependencies": {
-    "compression": "^1.7.4",
-    "express": "^4.17.1"
+  "name": "notflix",
+  "version": "0.0.0",
+  "engines": {
+    "node": "v10.15.3"
   },
-  "devDependencies": {},
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chn1002/webServer.git"
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.0",
+    "morgan": "~1.9.1",
+    "query-string": "^6.9.0",
+    "sass": "^1.23.3"
   },
-  "keywords": [
-    "NodeJS",
-    "Web"
-  ],
-  "author": "jihun Chon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chn1002/webServer/issues"
-  },
-  "homepage": "https://github.com/chn1002/webServer#readme"
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
 }
