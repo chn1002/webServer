@@ -1,0 +1,30 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "WebServer for Test (Netlify",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chn1002/webServer.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "Netlify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chn1002/webServer/issues"
+  },
+  "homepage": "https://github.com/chn1002/webServer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.2",
+    "serverless-http": "^2.6.0"
+  }
+}
